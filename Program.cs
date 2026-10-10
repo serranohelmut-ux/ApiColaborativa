@@ -26,7 +26,7 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 });
 
-app.MapGet("/", () => "Hola desde Dev 2");
+app.MapGet("/", () => "Hola desde el equipo Dev 1 y Dev 2");
 
 app.Run();
 
